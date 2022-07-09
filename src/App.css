@@ -1,0 +1,107 @@
+/* General Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* App Styling */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 400px;
+}
+
+.header h1 {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.add-icon {
+  color: #71cbd0;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.add-icon:hover {
+  filter: brightness(80%);
+}
+
+/* Notes Styling */
+.note {
+  background-color: #f9f9f9;
+  box-shadow: #999 1px 1px 3px;
+  width: 400px;
+  min-height: 239.33px;
+  margin-bottom: 20px;
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.note-body-read {
+  flex-grow: 1;
+  padding: 10px 20px 10px;
+}
+
+.note-body-edit {
+  flex-grow: 1;
+}
+
+.note-body-edit textarea {
+  width: 100%;
+  min-height: 184.5px;
+  box-shadow: none;
+  padding: 0.5em;
+  resize: none;
+}
+
+.note-header {
+  background-color: #eeeeee;
+  display: flex;
+  padding: 5px;
+  color: #71cbd0;
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+.note-header .date {
+  flex-grow: 1;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.check-icon {
+  color: #97d98e;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.edit-icon {
+  color: #dbc394;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.close-icon {
+  color: #c2484c;
+  font-size: 16px;
+  margin: 5px;
+}
+
+/* Footer Styling */
+.footer {
+  display: flex;
+  padding-top: 5vh;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 10%;
+}
